@@ -12,6 +12,8 @@ def main():
         np.array([1, 1, 1]), np.array([[0, 0, 1], [0, 1, 0], [1, 0, 0]]),
         np.array([t.Colour.WHITE, t.Colour.GREEN, t.Colour.ORANGE]))
 
+    block.transform(t.RED_AXIS)
+
 
 if __name__ == "__main__":
     main()
